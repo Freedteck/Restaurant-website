@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <!-- Importing Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/restaurant-logo.png" alt="Logo" width="80" height="80" id="logo-img"
+                        class="d-inline-block align-text-top float-start offcanvas-sm">
+                    <div class="d-inline-block">
+                        <h1>David Chu's China Bistro</h1>
+                        <p>
+                            <img src="images/star-k-logo.png" alt="Kosher Certification">
+                            <span>Kosher Certified</span>
+                        </p>
+                    </div>
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="nav-list" class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                <i class="bi-tools offcanvas-md"></i><br> Menu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi-info-circle offcanvas-md"></i><br> About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi-patch-check-fill offcanvas-md"></i><br> Awards
+                            </a>
+                        </li>
+                        <li class="nav-item offcanvas-xl">
+                            <a class="nav-link" href="tel: +2348187699023" id="phone">
+                                <i>+2348187699023</i>
+                                <div>* We Deliver</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!-- NavbarSupportedContent -->
+            </div> <!-- container -->
+        </nav> <!-- Header nav -->
+    </header>
+
+    <div id="call-button" class="container d-lg-block d-xl-none">
+        <a href="tel: +2348187699023" class="button">
+            <i class="bi-telephone-fill"></i>
+            234-818-769-9023
+        </a>
+    </div>
+    <div id="md deliver" class="text-center d-lg-block d-xl-none">
+        * We Deliver
+    </div>
+
+    <div id="main-content" class="container">
+        <div class="banner">
+            <img src="images/jumbotron_768.jpg" alt="Restaurant Image"
+                class="img-fluid rounded mx-auto d-md-block d-lg-none">
+            <img src="images/jumbotron_992.jpg" alt="Restaurant Image"
+                class="img-fluid rounded mx-auto d-none d-lg-block d-xl-none">
+            <img src="images/jumbotron_1200.jpg" alt="Restaurant Image"
+                class="img-fluid rounded mx-auto d-none d-xl-block">
+        </div>
+
+        <div class="row" id="home-tile">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="menu-category.html">
+                    <div id="menu-tile">
+                        <span>Menu</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="specials-category.html">
+                    <div id="specials-tile">
+                        <span>Specials</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <a href="">
+                    <div id="map-tile">
+                        <span>Map</span>
+                    </div>
+                </a>
+            </div>
+
+        </div> <!-- Home-tile -->
+    </div> <!--Main-Content-->
+
+    <footer class="card-footer">
+        <div class="container">
+            <div class="row">
+                <section class="col-md-4" id="time">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:15am - 10:00pm <br>
+                    Fri: 11:15am - 2:30pm <br>
+                    Saturday: Closed
+                    <hr class="d-sm-block d-md-none">
+                </section>
+                <section class="col-md-4" id="address">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:15am - 10:00pm <br>
+                    Fri: 11:15am - 2:30pm <br>
+                    Saturday: Closed
+                    <hr class="d-sm-block d-md-none">
+                </section>
+                <section class="col-md-4" id="testimonials">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:15am - 10:00pm <br>
+                    Fri: 11:15am - 2:30pm <br>
+                    Saturday: Closed
+                    <hr class="d-sm-block d-md-none">
+                </section>
+                <div></div>
+            </div>
+        </div>
+    </footer> <!--Footer-->
+
+    <!-- Importing JQuery and Bootstrap js -->
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

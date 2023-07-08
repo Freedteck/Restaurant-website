@@ -1,0 +1,330 @@
+body {
+    background-color: #61122f;
+    color: #fff;
+    font-size: 16px;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 10px;
+}
+
+.navbar-brand div {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #951c49;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#nav-list a:hover {
+    background: #e7e7e7;
+}
+
+#nav-list a i {
+    font-size: 2em;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
+
+button.navbar-toggler,
+.navbar-header .navbar-toggler-icon {
+    border: 1px solid #61122f;
+}
+
+#call-button>a {
+    font-size: 1.5em;
+    display: block;
+    margin: 20px 0 0;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #f6b319;
+    color: #951c49;
+    text-decoration: none;
+    text-align: center;
+}
+
+.banner img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+}
+
+#menu-tile,
+#specials-tile,
+#map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0C1f;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover,
+.all-cat:hover {
+    box-shadow: 0 1px 5px 1px #ccc;
+}
+
+#menu-tile {
+    background: url(../images/menu-tile.jpg) no-repeat;
+    background-position: center;
+}
+
+#specials-tile {
+    background: url(../images/specials-tile.jpg) no-repeat;
+    background-position: center;
+}
+
+#home-tile span {
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    opacity: .8;
+    color: #fff;
+}
+
+.card-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    background-color: #222;
+    padding-bottom: 30px;
+    border-top: 0;
+    text-align: center;
+}
+
+.all-cat {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0C1f;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu-cat-title + div {
+    margin-bottom: 50px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #logo-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .navbar-brand p {
+        font-size: small;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .navbar-brand h1 {
+        font-size: 1.5em;
+    }
+
+    #logo-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .navbar-brand p {
+        font-size: medium;
+    }
+
+    footer section {
+        text-align: start;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-brand h1 {
+        font-size: 1.5em;
+    }
+
+    #logo-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .navbar-brand p {
+        font-size: large;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar-brand h1 {
+        font-size: 1.5em;
+    }
+
+    #logo-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .navbar-brand p {
+        font-size: larger;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .navbar-brand h1 {
+        font-size: 1.7em;
+    }
+
+    #logo-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .navbar-brand p {
+        font-size: xx-large;
+    }
+}
+
+/* body {
+    background-color: #61122f;
+    color: #fff;
+    font-size: 16px;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+#logo-img {
+    background: url(../images/restaurant-logo_large.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    /* text-transform: uppercase; //
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #951c49;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#nav-list a:hover {
+    background: #e7e7e7;
+}
+
+#nav-list a span {
+    font-size: 2em;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
+
+button.navbar-toggler, .navbar-header .navbar-toggler-icon {
+    border: 1px solid #61122f;
+}
+
+ // Small devices (landscape phones, 576px and up) //
+@media (min-width: 576px) {
+    .navbar-brand  h1 {
+         /* font-size: 1em;  //
+    }
+
+    .navbar-brand p {
+        font-size: .5em;
+    }
+ }
+ */

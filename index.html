@@ -29,7 +29,7 @@
                     </div>
 
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button id="navbar-toggle" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -72,42 +72,7 @@
         * We Deliver
     </div>
 
-    <div id="main-content" class="container">
-        <div class="banner">
-            <img src="images/jumbotron_768.jpg" alt="Restaurant Image"
-                class="img-fluid rounded mx-auto d-md-block d-lg-none">
-            <img src="images/jumbotron_992.jpg" alt="Restaurant Image"
-                class="img-fluid rounded mx-auto d-none d-lg-block d-xl-none">
-            <img src="images/jumbotron_1200.jpg" alt="Restaurant Image"
-                class="img-fluid rounded mx-auto d-none d-xl-block">
-        </div>
-
-        <div class="row" id="home-tile">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="menu-category.html">
-                    <div id="menu-tile">
-                        <span>Menu</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="specials-category.html">
-                    <div id="specials-tile">
-                        <span>Specials</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <a href="">
-                    <div id="map-tile">
-                        <span>Map</span>
-                    </div>
-                </a>
-            </div>
-
-        </div> <!-- Home-tile -->
-    </div> <!--Main-Content-->
+    <div id="main-content" class="container"></div>
 
     <footer class="card-footer">
         <div class="container">
@@ -141,6 +106,7 @@
     <!-- Importing JQuery and Bootstrap js -->
     <script src="js/jquery-3.7.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajaxUtils.js"></script>
     <script src="js/script.js"></script>
 </body>
 

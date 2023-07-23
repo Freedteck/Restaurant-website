@@ -6,10 +6,7 @@ $(function () {
             $("#navbarSupportedContent").collapse('hide');
         }
     });
-    
-});
-
-(function (window) {
+    (function (window) {
 
     let dc = {}
     
@@ -34,3 +31,6 @@ $(function () {
     
     window.$dc = dc;
 })(window);
+
+});
+

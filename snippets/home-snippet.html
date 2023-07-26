@@ -1,3 +1,4 @@
+<!-- Contents to load at the start of the page -->
 <div class="banner">
     <img src="images/jumbotron_768.jpg" alt="Restaurant Image" class="img-fluid rounded mx-auto d-md-block d-lg-none">
     <img src="images/jumbotron_992.jpg" alt="Restaurant Image"
@@ -6,13 +7,17 @@
 </div>
 
 <div class="row" id="home-tile">
-    <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="menu-category.html">
+
+    <!-- I want to load contents in "snippets/menu-snippets.html when i click the link" -->
+    <div class="col-md-4 col-sm-6 col-xs-12" id="menus">
+        <a href="#" id="menuLink">
             <div id="menu-tile">
                 <span>Menu</span>
             </div>
         </a>
     </div>
+
+    <!-- This will be done later -->
     <div class="col-md-4 col-sm-6 col-xs-12">
         <a href="specials-category.html">
             <div id="specials-tile">
@@ -20,6 +25,8 @@
             </div>
         </a>
     </div>
+
+    <!-- To be done later -->
     <div class="col-md-4 col-sm-12 col-xs-12">
         <a href="">
             <div id="map-tile">
